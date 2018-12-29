@@ -1,0 +1,13 @@
+git add filename.ext (git add index.html)
+git add *.ext (git add *.html) >> Add all html files
+git add * (Add all files) >>Add all files
+git status >> Show all files status
+git reset head filename.ext >> remove file from stage
+get reset head * >> remove all files from stage
+git rm --cached >> remove file from stage
+git rm -f >> Delete file from system
+git config --global user.name 'moses' >> Add content owner details
+git checkout filename.ext >> Remove changes made to added file
+
+git branch branch_name  >> create a new branch
+git checkout branch_name >> Enter a branch
